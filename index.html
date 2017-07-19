@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<!-- this is the code for the main page, built with boostrap -->
+<!-- main contributers: salil nadkarni and anurag kompalli -->
+
+<head>
+	<title>Robostangs | Team 548</title>
+	<meta name="description" content="Home Page" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="shortcut icon" href="assets/logo.ico"> <!-- ROBOSTANG ICON -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" href="robostangs_main.css"/>
+ 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- eventually change the actual bootstrap file -->
+  <style>
+    .navbar{
+      background-color: #ff9812;
+      font-family:"Lato";
+      border:0;
+      margin-bottom: 0;
+      font-size: 15px !important;
+    }
+    .navbar li a, .navbar .navbar-brand { color: #000000 !important; }
+    .navbar-nav li a:hover { color: #696969 !important }
+    .navbar-nav li.active a {color: #696969 !important; background-color: #000000 !important;}
+    .navbar-default .navbar-toggle { border-color:#696969 !important; }
+    .open .dropdown-toggle {color: #696969 !important; background-color: #ff9812 !important;}
+    .dropdown-menu li a { background-color: black !important; color: #ff9812 !important;}
+    .dropdown-menu { background-color:#000000 !important;}
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" dataoffset="50">
+<!-- NAVBAR CODE -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="#"></a> <!-- Need to insert image -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="page-scroll" href="#scroll-about">ABOUT US</a></li>
+            <li class="divider"></li>
+            <li><a href="#">OUR TEAM</a></li>
+            <li><a href="#">SPONSORS</a></li>
+            <li><a href="#">AWARDS</a></li>
+            <li><a href="#">RESOURCES</a></li>
+            <li><a href="#">CALENDAR</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">FIRST
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#scroll-first">FIRST</a></li>
+            <li class="divider"></li>
+            <li><a href="#">FRC</a></li>
+            <li><a href="#">FTC</a></li>
+            <li><a href="#">FLL</a></li>
+            <li><a href="#">JR. FLL</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#scroll-media">MEDIA</a></li>
+            <li class="divider"></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">PHOTOS</a></li>
+            <li><a href="#">VIDEOS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">OUTREACH
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#scroll-outreach">OUTREACH</a></li>
+            <li class="divider"></li>
+            <li><a href="#">OUR EVENTS</a></li>
+            <li><a href="#">OUR GLOBAL INITIATIVE</a></li> 
+          </ul>
+        </li>
+        <li><a href="#">CONTACT US</a></li>
+        <li><a href="https://www.robostangs.net/"><span class="glyphicon glyphicon-user"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+
+<!-- CAROUSEL CODE -->
+<div class="container-fluid">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="assets/download-1.jpg" alt="item" style="width:100%;">
+        <a href="#">
+        <div class="carousel-caption slides">
+          <h1>HEADLINE</h1>
+          <p>descriptition</p>
+        </div>
+        </a>
+      </div>
+      <div class="item">
+        <img src="assets/download-1.jpg" alt="item" style="width:100%;">
+        <a href="#">
+        <div class="carousel-caption slides">
+          <h1>HEADLINE</h1>
+          <p>descriptition</p>
+        </div>
+        </a>
+      </div>
+      <div class="item">
+        <img src="assets/download-1.jpg" alt="item" style="width:100%;">
+        <a href="#">
+        <div class="carousel-caption slides">
+          <h1>HEADLINE</h1>
+          <p>descriptition</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
+
+<!-- BODY CODE -->
+  <!-- ABOUT US -->
+  <div class="container-fluid" id="scroll-about">
+    <div class="row">
+        <div class = "jumbotron text-center black" style = "padding-bottom: 0%;">
+            <h3>WE ARE THE</h3>
+            <h2><strong>ROBOSTANGS</strong></h2>
+            <br>
+            <p>We are FRC Team 548, the Robostangs. Based out of Northville High School in Northville, Michigan. Our goal is not only to participate in FIRST, but also to spread the message of science and technology to the community. Since our rookie year in 2001, we have helped our team members pursue their goal of a STEM field career. Our team currently consists of over 80 students actively involved in FIRST. Within our team’s organizational structure, we have strong student leaders coupled with knowledgeable and experienced mentors to guide the students.</p>
+        </div>
+    </div>
+    <div class="row" id="banner-about-us">
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>OUR TEAM</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa fa-users fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>SPONSORS</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-rocket fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>AWARDS</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-trophy fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-md-offset-2 col-xs-12 text-center black roboclear">
+          <h3><strong>RESOURCES</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-archive fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>CALENDAR</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa fa-calendar-o fa-3x"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+  
+  <!-- FIRST -->
+  <div class="container-fluid" id="scroll-first">
+    <div class="row" style="background-color: #ff9812">
+      <div class = "col-md-12 col-xs-12 orange">
+        <img src="assets/FIRST.svg" class="img-responsive" style="padding-bottom: 0px;">
+        <h3>MISSION</h3>
+        <p>To inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
+      </div>
+      <div class = "col-md-6 col-xs-12 orange">
+        <img src="assets/FRC.svg" class="center-block img-responsive">
+      </div>
+      <div class = "col-md-6 col-xs-12 orange">
+        <img src="assets/FTC.svg" class="center-block img-responsive">
+      </div>
+      <div class = "col-md-6 col-xs-12 orange">
+        <img src="assets/FLL.svg" class="center-block img-responsive">
+      </div>
+      <div class = "col-md-6 col-xs-12 orange">
+        <img src="assets/JrFLL.svg" class="center-block img-responsive">
+      </div>
+    </div>
+  </div>
+  
+  <!-- MEDIA -->
+  <div class="container-fluid" id="scroll-media">
+    <div class="row">
+        <div class = "jumbotron text-center black" style = "padding-bottom: 0%">
+          <h2 style="font-size: 60px"><strong>MEDIA</strong></h2>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black">
+          <h1><strong>PHOTOS</strong></h1>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-camera fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black">
+          <h3><strong>VIDEOS</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-video-camera fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black">
+          <h3><strong>BLOG</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-book fa-3x"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+  
+  <!-- OUTREACH -->
+  <div class="container-fluid" id="scroll-outreach">
+    <div class="row" id="banner-outreach">
+        <div class = "jumbotron text-center black roboclear" style = "padding-bottom: 0%">
+          <h2 style="font-size: 60px;"><strong>OUTREACH</strong></h2>
+          <br>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>OUR EVENTS</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-flag fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>GLOBAL INTIATIVE</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-globe fa-3x"></i>
+          </button>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center black roboclear">
+          <h3><strong>CHAIRMANS</strong></h3>
+          <button type="button" class = "btn btn-default btn-circle btn-xl roboicon-orange">
+          <i class="fa  fa-black-tie fa-3x"></i>
+          </button>
+        </div>
+    </div>
+  </div>
+
+  <!-- CONTACT US -->
+
+  <!-- FOOTER -->
+  <div class="container-fluid orange">
+    <div class="row">
+      <div class="col-xs-2 col-xs-offset-2">
+        <button type="button" class = "btn btn-default btn-circle btn-lg roboicon-black">
+          <i class="fa  fa-facebook"></i>
+        </button>
+      </div>
+      <div class="col-xs-2">
+          <button type="button" class = "btn btn-default btn-circle btn-lg roboicon-black">
+            <i class="fa  fa-twitter"></i>
+          </button>
+      </div>
+      <div class="col-xs-2">
+          <button type="button" class = "btn btn-default btn-circle btn-lg roboicon-black">
+            <i class="fa  fa-instagram"></i>
+          </button>
+      </div>
+      <div class="col-xs-2">
+          <button type="button" class = "btn btn-default btn-circle btn-lg roboicon-black">
+            <i class="fa  fa-youtube-play"></i>
+          </button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid orange text-center" style="padding-bottom: 0px; padding-top: 0px">
+    <p style="color:#696969">© Copyright FRC Team 548 Robostangs 2017</p>
+  </div>
+
+</body>
+
+
+</html>
