@@ -7,4 +7,4 @@ MAIN CONTRIBUTORS:
 Anurag Kompalli,
 Salil Nadkarni
 
-Questions, Comments or Concerns can be sent to anurag@robostangs.com 
+Questions, Comments or Concerns can be sent to anurag@robostangs.com or salil@robostangs.com
